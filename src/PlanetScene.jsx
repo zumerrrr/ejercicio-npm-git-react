@@ -116,7 +116,7 @@ export default function PlanetScene() {
 
     // 7. Carga del modelo GLB
     const loader = new GLTFLoader();
-    const relativePath = '../public/EscenaMain-Rig.glb'; // Cambia esto si tu ruta es otra
+    const relativePath = './EscenaMain-Rig.glb'; // Cambia esto si tu ruta es otra
 
 
     loader.load(
