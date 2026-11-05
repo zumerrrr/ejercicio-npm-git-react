@@ -4,12 +4,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import confetti from 'canvas-confetti'
+import PlanectScene from './PlanetScene'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <PlanectScene/>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
